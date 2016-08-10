@@ -1,7 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## This function creates a matrix and has a list of functions one can use to get and set aspects of the matrix
+## This function creates a matrix that does the following:
+##sets the matrix
+##gets the matrix
+##sets the inverse of the matrix
+##gets the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
